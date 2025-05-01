@@ -1,12 +1,10 @@
-# React + Vite
+# BillMyCrypto-Dapp
+BillMyCrypto-Dapp is a Web3 app for paying bills and sending crypto payments using USDC/DAI on Polygon. Built with React and Vite, it was developed with the support of AI tools like ChatGPT and Grok. Future updates will integrate AI services to enhance user support and automation.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Here’s a one-liner tagline:
+Pay bills or send crypto—fast, simple, and AI-powered.
 
-Currently, two official plugins are available:
+# Detailed Description:
+BillMyCrypto-Dapp is a decentralized application (dApp) that enables users to pay bills or send general payments using stablecoins like USDC and DAI on the Polygon Mainnet. It supports both direct wallet-to-wallet transfers and biller settlements (e.g., Airtel, MTN) with offline/manual NGN processing. Built with React, Tailwind CSS, Vite, and ethers.js, the project delivers a smooth and user-friendly experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The codebase was developed with the support of AI tools like ChatGPT and Grok, and future versions will integrate AI-powered services and assistants to enhance user support, guidance, and automation within the dApp.
