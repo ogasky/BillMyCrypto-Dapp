@@ -3,6 +3,10 @@ import TransactionProvider, { TransactionContext } from './components/Transactio
 import TransactionForm from './components/TransactionForm';
 import TransactionList from './components/TransactionList';
 
+import Navbar from './components/Navbar';
+import styles from './styles/App.module.css';
+import { WalletProvider } from './components/WalletContext';
+
 function AppContent() {
   const { error } = useContext(TransactionContext);
 
@@ -20,6 +24,9 @@ function AppContent() {
           <p className="text-red-400 text-center">{error}</p>
         </div>
       )}
+      <header>
+        <Navbar/>
+      </header>
       <main className="flex-grow px-4 md:px-10 py-8">
         <div className="max-w-7xl mx-auto">
           <h1 className="text-4xl font-bold text-center mb-10">
@@ -44,9 +51,12 @@ function AppContent() {
 
 function App() {
   return (
-    <TransactionProvider>
-      <AppContent />
-    </TransactionProvider>
+
+    <WalletProvider>
+      <TransactionProvider>
+        <AppContent />
+      </TransactionProvider>
+    </WalletProvider>
   );
 }
 

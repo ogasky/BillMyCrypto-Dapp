@@ -191,8 +191,8 @@ const TransactionForm = () => {
                 <option value="billmycrypto">BillMyCrypto</option>
                 <option value="codeuplab">CodeUpLab</option>
                 <option value="wittyhub">WittyHub</option>
-                <option value="zoerd">ZOERD</option>
                 <option value="mtn">MTN</option>
+                <option value="other">Other</option>
               </select>
             </div>
             <input
